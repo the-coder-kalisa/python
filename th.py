@@ -1,6 +1,4 @@
-class Mammal:
-    def walk(self):
-        print("walk")
-class Dog(Mammal):
-    def bark(self):
-        print("bark")
+from pathlib import Path
+path = Path()
+for file in path.glob("*.py"):
+    print(file)
