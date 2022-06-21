@@ -1,6 +1,6 @@
-numbers = [5, 2, 5, 2, 2]
-for number in numbers:
-    output = ""
-    for i in range(number) :
-        output += "*"
-    print(output)
+class Mammal:
+    def walk(self):
+        print("walk")
+class Dog(Mammal):
+    def bark(self):
+        print("bark")
